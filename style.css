@@ -115,9 +115,13 @@ main {
     width: 100%;
 }
 
-.profile__anchor {
+.profile__link {
     text-decoration: none;
     color: var(--c-white);
+    padding: var(--spacing-150) var(--spacing-200);
+    text-align: center;
+    font-weight: 600;
+    font-size: 14px;
     width: 100%;
     background-color: var(--c-grey-700);
     border-radius: 5px;
@@ -127,13 +131,6 @@ main {
         color: var(--c-grey-900);
         background-color: var(--c-green);
     }
-}
-
-.profile__link {
-    padding: var(--spacing-150) var(--spacing-200);
-    text-align: center;
-    font-weight: 600;
-    font-size: 14px;
 }
 
 .attribution {
