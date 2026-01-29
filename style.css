@@ -14,7 +14,7 @@
     --ff-primary: "Inter", "Arial", sans-serif;
 
     /* Spacing */
-    --spacing-150: 12px;
+    --spacing-150: 14px;
     --spacing-200: 24px;
 }
 
@@ -106,7 +106,6 @@ main {
 }
 
 .profile__links {
-    list-style: none;
     display: flex;
     flex-direction: column;
     align-items: center;
